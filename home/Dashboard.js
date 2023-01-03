@@ -13,7 +13,6 @@ import {
 } from "react-native";
 import React, { useState } from "react";
 import * as Speech from "expo-speech";
-import { StatusBar } from "expo-status-bar";
 
 const vocab = [
   {
@@ -210,9 +209,5 @@ const styles = StyleSheet.create({
     paddingHorizontal: 25,
     width: "100%",
     marginVertical: 10,
-  },
-  elevation: {
-    shadowColor: "#52006A",
-    elevation: 20,
   },
 });
